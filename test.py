@@ -3,8 +3,8 @@ from compare import compare
 from grade import similarity
 import pandas as pd
 
-video_to_process = 'enter_video_name'
-data_to_compare = 'enter_video_name'
+video_to_process = 'karinaavx'
+data_to_compare = 'karinaavx'
 
 process_video(f"video/{video_to_process}.mp4", f"out/{video_to_process}.csv")
 print("Processing complete")
